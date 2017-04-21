@@ -1,8 +1,8 @@
 from dc_base_scrapers.geojson_scraper import RandomIdGeoJSONScraper
 
 
-stations_url = "http://inspirewfs.stalbans.gov.uk/INSPIRE/WEBSERVICE/wfs.exe?service=WFS&version=2.0.0&request=GetFeature&typeNames=ns%3APolling_Stations&outputFormat=application%2Fvnd.geo%2Bjson&srsName=EPSG%3A4326"
-districts_url = "http://inspirewfs.stalbans.gov.uk/INSPIRE/WEBSERVICE/wfs.exe?service=WFS&version=2.0.0&request=GetFeature&typeNames=ns%3APolling_Districts&outputFormat=application%2Fvnd.geo%2Bjson&srsName=EPSG%3A4326"
+stations_url = "http://inspirewfs.stalbans.gov.uk/INSPIRE/WEBSERVICE/wfs.exe?service=WFS&version=2.0.0&request=GetFeature&typeNames=ns%3APolling_Stations&outputFormat=application%2Fvnd.geo%2Bjson"
+districts_url = "http://inspirewfs.stalbans.gov.uk/INSPIRE/WEBSERVICE/wfs.exe?service=WFS&version=2.0.0&request=GetFeature&typeNames=ns%3APolling_Districts&outputFormat=application%2Fvnd.geo%2Bjson"
 council_id = 'E07000240'
 
 
